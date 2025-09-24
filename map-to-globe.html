@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamat & Giamat - פרויקטים</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a6fd5, #00c6ff);
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    header, footer {
+      background: rgba(0,0,0,0.5);
+      padding: 15px;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .projects {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 15px;
+      width: 220px;
+      font-size: 1.2em;
+      transition: 0.3s;
+    }
+    .card:hover {
+      background: rgba(0,0,0,0.7);
+      transform: translateY(-5px);
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tamat & Giamat</h1>
+    <p>פרויקטים</p>
+  </header>
+  <main>
+    <div class="projects">
+      <a href="map-to-globe.html"><div class="card">🌍 הופך מפה לגלובוס</div></a>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Tamat & Giamat</p>
+  </footer>
+</body>
+</html>
